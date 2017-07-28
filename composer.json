@@ -1,0 +1,26 @@
+{
+  "name": "webtoucher/omnipay-platbox",
+  "description": "PlatBox driver for the Omnipay payment processing library",
+  "keywords": ["PlatBox", "gateway", "merchant", "omnipay", "pay", "payment", "payments", "mobile"],
+  "homepage": "https://github.com/webtoucher/omnipay-platbox",
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Alexey Kuznetsov",
+      "email": "mirakuru@webtoucher.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\PlatBox\\": "src"
+    }
+  }
+}
