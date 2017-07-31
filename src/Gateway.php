@@ -222,7 +222,7 @@ class Gateway extends AbstractGateway
         return new HttpClient('', [
             HttpClient::CURL_OPTIONS => [
                 CURLOPT_CONNECTTIMEOUT => 60,
-                CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2,
+                CURLOPT_SSLVERSION => 6, // CURL_SSLVERSION_TLSv1_2
                 CURLOPT_SSL_VERIFYPEER => false,
                 CURLOPT_SSL_VERIFYHOST => false,
                 CURLOPT_RETURNTRANSFER => true,
