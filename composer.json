@@ -1,7 +1,16 @@
 {
   "name": "webtoucher/omnipay-platbox",
   "description": "PlatBox driver for the Omnipay payment processing library",
-  "keywords": ["PlatBox", "gateway", "merchant", "omnipay", "pay", "payment", "payments", "mobile"],
+  "keywords": [
+    "PlatBox",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "payments",
+    "mobile"
+  ],
   "homepage": "https://github.com/webtoucher/omnipay-platbox",
   "type": "library",
   "license": "BSD-3-Clause",

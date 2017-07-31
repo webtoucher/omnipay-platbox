@@ -29,7 +29,7 @@ to the ```require``` section of your `composer.json` file.
 
 The following gateways are provided by this package:
 
-* PlatBox API (https://platbox.com/new/docs/paybox_api_1.pdf)
+* PlatBox API (https://api.platbox.com)
 
 ```php
     $gateway = \Omnipay\Omnipay::create('PlatBox');
